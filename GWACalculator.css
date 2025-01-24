@@ -271,7 +271,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 25px;
 }
 
