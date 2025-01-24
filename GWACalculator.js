@@ -56,7 +56,7 @@ document.getElementById("confirmBTN").addEventListener("click", () => {
   name = nameInput.value;
   congratsModal.style.display = "block";
 
-  congratsText.textContent = `Congrats, ${name}! 🎉`;
+  congratsText.textContent = `Congratulations, ${name}! 🎉`;
   GWA.textContent = `Your GWA is ${displayedResult}`;
 });
 
