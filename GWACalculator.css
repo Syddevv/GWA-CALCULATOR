@@ -137,7 +137,7 @@ body {
 }
 
 #name-modal-content {
-  margin: 100% auto; /* Center the modal */
+  margin: 70% auto; /* Center the modal */
   background-color: #fdc798;
   width: 320px;
   border-radius: 4px;
@@ -210,7 +210,7 @@ body {
 }
 
 #congrats-modal-content {
-  margin: 95% auto;
+  margin: 75% auto;
   background-color: bisque;
   display: flex;
   flex-direction: column;
