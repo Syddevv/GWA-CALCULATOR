@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/GWACalculator.css" />
+    <title>GWA - Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">General Weighted Average Calculator</p>
+      <div class="inputs-removeBTN">
+        <input type="text" placeholder="Grade" class="grade-input js-grade" />
+        <input type="text" placeholder="Unit" class="unit-input js-unit" />
+        <button class="remove js-remove-button">Remove</button>
+      </div>
+
+      <div class="buttons">
+        <button class="add-more-subjects js-add-more-subjects">
+          Add More Subjects
+        </button>
+        <button class="calculate js-calculate">Calculate</button>
+      </div>
+    </div>
+
+    <div id="nameModal">
+      <div id="name-modal-content">
+        <label for="name">Enter your name: </label>
+        <input type="text" id="name" />
+
+        <div id="nameBTNS">
+          <button id="confirmBTN">Confirm</button>
+          <button id="skipBTN">Skip</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="congratsModal">
+      <div id="congrats-modal-content">
+        <img src="images/remove.png" alt="" id="closeBTN" />
+        <p id="congrats">Congratulations! 🎉</p>
+        <p id="GWA">Your GWA is 1.25</p>
+      </div>
+    </div>
+
+    <div id="socials">
+      <div>
+        <a href="https://www.facebook.com/sydney.santos.7773/">
+          <img id="facebook" src="images/socials/facebook.png" alt="" />
+        </a>
+        <a href="https://www.instagram.com/lvrbysyd_/">
+          <img id="instagram" src="images/socials/social.png" alt="" />
+        </a>
+        <a href="https://github.com/Syddevv">
+          <img id="github" src="images/socials/github.png" alt="" />
+        </a>
+        <a href="https://www.tiktok.com/@sydlvrby"
+          ><img id="tiktok" src="images/socials/tik-tok.png" alt=""
+        /></a>
+      </div>
+      <p>Developed by Sydney Santos</p>
+    </div>
+
+    <script src="js/GWACalculator.js"></script>
+  </body>
+</html>
